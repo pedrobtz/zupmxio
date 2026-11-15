@@ -23,8 +23,14 @@ decisions marked (C) and its open questions (§15) are still the maintainer's
 to confirm.
 
 ## Assurance
+<!-- r-skills: shared-rules -->
 
-@.claude/shared/assurance.md
+The portfolio's shared rules (`workflow`, `r-package`, `ci`, `native-code`,
+`correctness`, `assurance`) come from the
+[r-skills](https://github.com/pedrobtz/r-skills) plugin's `rules/`, loaded at
+session start because of the marker above. Never copy them here. Where this
+file and a shared rule disagree, this file wins for this package. Cloud
+sessions do not load the plugin and run without them.
 
 `.agents/assurance.md` records how this package meets that standard: its
 kinds, required checks, boundaries with their oracles, and limits with
